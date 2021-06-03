@@ -6,10 +6,10 @@
 
 - We build a Flask app that accepts input images and returns what category the input image is predicted to be
 
-- The frontend should look as below if you deploy the app correctly:
+- The frontend will look like:
 ![initial](static/images/initial.png)
 
-- And if you wrote the inference function right and render the result template correctly, the output should look as below:
+- The result page will look like:
 ![prediction](static/images/prediction.png)
 
 - _Make sure you use an image from the test_images folder to test your app_.
