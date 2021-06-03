@@ -1,7 +1,10 @@
 # Intro to Flask with Tensorflow Lite
 
-- In this assignment, you will use the tflite file you created in the TF Lite assignment and use Flask to build a simple
-app that predicts what the input image is
+- We build and save a TFLite model using the notebook in model_tflite 
+
+- The model is trained to recognize the Fashion MNIST images
+
+- We build a Flask app that accepts input images and returns what category the input image is predicted to be
 
 - The frontend should look as below if you deploy the app correctly:
 ![initial](static/images/initial.png)
