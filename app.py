@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['GET', 'POST'])
-def rock_paper_scissor():
+def reco_image():
     # Write the GET Method to get the index file
     if request.method == 'GET':
         return render_template('index.html')
